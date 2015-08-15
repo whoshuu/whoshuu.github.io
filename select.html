@@ -1,7 +1,5 @@
 <head>
   <link rel="stylesheet" type="text/css" href="stylesheets/select.css">
-  <script src="javascripts/classie.js"></script>
-  <script src="javascripts/select.js"></script>
 </head>
 <body>
   <div class="cs-select cs-skin-rotate">
@@ -20,4 +18,13 @@
       <option value="3">Option 3</option>
     </select>
   </div>
+  <script src="javascripts/classie.js"></script>
+  <script src="javascripts/select.js"></script>
+  <script>
+    (function() {
+      [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {	
+        new SelectFx(el);
+      } );
+    })();
+  </script>
 </body>
