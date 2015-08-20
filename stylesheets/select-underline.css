@@ -75,7 +75,7 @@ div.cs-skin-underline {
 
 .cs-select .cs-selected span::after {
 	font-family: 'icomoon';
-	content: '\e010';
+	content: '\e011';
 	opacity: 1;
 	-webkit-transition: opacity 0.3s 0.7s;
 	transition: opacity 0.3s 0.7s;
